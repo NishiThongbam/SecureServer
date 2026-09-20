@@ -1,0 +1,4 @@
+2026-09-20 22:26:47,742 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-09-20 22:26:47,742 - FileServer - INFO - COnfiguration loaded: Binding to 127.0.0.1:8080
+2026-09-20 22:26:47,742 - FileServer - DEBUG - Server loop would start here.
+2026-09-20 22:26:47,743 - FileServer - INFO - Server shutting down.
