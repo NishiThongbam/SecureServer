@@ -2,3 +2,432 @@
 2026-09-20 22:26:47,742 - FileServer - INFO - COnfiguration loaded: Binding to 127.0.0.1:8080
 2026-09-20 22:26:47,742 - FileServer - DEBUG - Server loop would start here.
 2026-09-20 22:26:47,743 - FileServer - INFO - Server shutting down.
+2026-09-20 23:23:56,701 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-09-20 23:23:56,702 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-09-20 23:23:56,703 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-09-20 23:23:56,703 - FileServer - INFO - Witing for a client to connect...
+2026-09-20 23:27:05,793 - FileServer - INFO - Connection established with ('127.0.0.1', 56508)
+2026-09-20 23:27:05,799 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-20 23:27:05,799 - FileServer - INFO - Client connection closed.
+2026-09-20 23:27:05,800 - FileServer - INFO - Server socker closed. 
+2026-09-20 23:27:05,800 - FileServer - INFO - Server shutting down. 
+2026-09-20 23:42:23,342 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-09-20 23:42:23,342 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-09-20 23:42:23,343 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-09-20 23:42:23,343 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:05:17,873 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-09-26 23:05:17,873 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-09-26 23:05:17,875 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-09-26 23:05:17,875 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:05:26,069 - FileServer - INFO - Connection established with ('127.0.0.1', 53945)
+2026-09-26 23:05:26,074 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:05:26,076 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:05:26,077 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:05:26,086 - FileServer - INFO - Connection established with ('127.0.0.1', 59137)
+2026-09-26 23:05:27,158 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:05:27,160 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:05:27,161 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:05:27,161 - FileServer - INFO - Connection established with ('127.0.0.1', 52830)
+2026-09-26 23:05:32,187 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:05:32,187 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:05:32,188 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:05:32,188 - FileServer - INFO - Connection established with ('127.0.0.1', 56393)
+2026-09-26 23:06:44,396 - FileServer - DEBUG - Received raw data:
+
+2026-09-26 23:06:44,396 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:06:44,397 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:06:44,397 - FileServer - INFO - Connection established with ('127.0.0.1', 59137)
+2026-09-26 23:06:44,398 - FileServer - DEBUG - Received raw data:
+
+2026-09-26 23:06:44,398 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:06:44,398 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:06:44,398 - FileServer - INFO - Connection established with ('127.0.0.1', 63914)
+2026-09-26 23:06:44,404 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:06:44,405 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:06:44,405 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:06:44,407 - FileServer - INFO - Connection established with ('127.0.0.1', 62091)
+2026-09-26 23:08:49,254 - FileServer - DEBUG - Received raw data:
+
+2026-09-26 23:08:49,255 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:08:49,255 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:08:49,256 - FileServer - INFO - Connection established with ('127.0.0.1', 52103)
+2026-09-26 23:08:49,256 - FileServer - DEBUG - Received raw data:
+
+2026-09-26 23:08:49,257 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:08:49,258 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:08:49,258 - FileServer - INFO - Connection established with ('127.0.0.1', 54033)
+2026-09-26 23:08:49,264 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:08:49,264 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:08:49,265 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:08:49,275 - FileServer - INFO - Connection established with ('127.0.0.1', 60793)
+2026-09-26 23:08:50,296 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:08:50,297 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:08:50,297 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:08:50,297 - FileServer - INFO - Connection established with ('127.0.0.1', 57424)
+2026-09-26 23:08:55,311 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:08:55,311 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:08:55,311 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:08:55,312 - FileServer - INFO - Connection established with ('127.0.0.1', 54551)
+2026-09-26 23:10:36,135 - FileServer - DEBUG - Received raw data:
+
+2026-09-26 23:10:36,135 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:10:36,135 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:10:36,136 - FileServer - INFO - Connection established with ('127.0.0.1', 51920)
+2026-09-26 23:10:36,136 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2026-09-26 23:10:36,136 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:10:36,136 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:10:36,136 - FileServer - INFO - Connection established with ('127.0.0.1', 51290)
+2026-09-26 23:10:36,136 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+
+2026-09-26 23:10:36,137 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:10:36,137 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:10:36,137 - FileServer - INFO - Connection established with ('127.0.0.1', 57561)
+2026-09-26 23:10:36,140 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:10:36,141 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:10:36,141 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:10:36,154 - FileServer - INFO - Connection established with ('127.0.0.1', 63423)
+2026-09-26 23:10:37,221 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:10:37,221 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:10:37,222 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:10:37,222 - FileServer - INFO - Connection established with ('127.0.0.1', 55649)
+2026-09-26 23:31:50,395 - FileServer - DEBUG - Received raw data:
+
+2026-09-26 23:31:50,396 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:31:50,396 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:31:50,397 - FileServer - INFO - Connection established with ('127.0.0.1', 63625)
+2026-09-26 23:31:50,397 - FileServer - DEBUG - Received raw data:
+
+2026-09-26 23:31:50,397 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:31:50,398 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:35:07,392 - FileServer - INFO - Connection established with ('127.0.0.1', 51560)
+2026-09-26 23:35:07,398 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:35:07,399 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:35:07,399 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:35:07,402 - FileServer - INFO - Connection established with ('127.0.0.1', 64524)
+2026-09-26 23:35:12,440 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:35:12,441 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:35:12,441 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:35:12,442 - FileServer - INFO - Connection established with ('127.0.0.1', 52871)
+2026-09-26 23:35:13,729 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:35:13,730 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:35:13,730 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:35:13,731 - FileServer - INFO - Connection established with ('127.0.0.1', 63496)
+2026-09-26 23:35:15,208 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:35:15,209 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:35:15,209 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:35:15,209 - FileServer - INFO - Connection established with ('127.0.0.1', 58368)
+2026-09-26 23:35:15,830 - FileServer - DEBUG - Received raw data:
+GET / HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+
+
+2026-09-26 23:35:15,831 - FileServer - INFO - Client socket closed. 
+2026-09-26 23:35:15,832 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:35:15,832 - FileServer - INFO - Connection established with ('127.0.0.1', 64433)
+2026-09-26 23:35:58,077 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-09-26 23:35:58,078 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-09-26 23:35:58,078 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-09-26 23:35:58,078 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:36:03,916 - FileServer - INFO - Connection established with ('127.0.0.1', 64806)
+2026-09-26 23:36:03,922 - FileServer - DEBUG - Parsed Request: GET /
+2026-09-26 23:36:03,923 - FileServer - INFO - Client connection closed.
+2026-09-26 23:36:03,923 - FileServer - INFO - Waiting for a client to connect...
+2026-09-26 23:36:03,925 - FileServer - INFO - Connection established with ('127.0.0.1', 63715)
+2026-09-26 23:36:03,961 - FileServer - DEBUG - Parsed Request: GET /favicon.ico
+2026-09-26 23:36:03,962 - FileServer - INFO - Client connection closed.
+2026-09-26 23:36:03,962 - FileServer - INFO - Waiting for a client to connect...

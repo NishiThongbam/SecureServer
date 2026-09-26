@@ -1,16 +1,23 @@
-from src.config import HOST, PORT
+from src.config import HOST, PORT, MAX_CONNECTIONS
 from src.utils.logger import logger
+
+from src.server import start_server
 
 def main():
     logger.info("Initializing Secure File Sharing Server...")
-    logger.info(f"COnfiguration loaded: Binding to {HOST}:{PORT}")
+    
+    logger.debug(f"MAx COnnections Possible: {MAX_CONNECTIONS}")
 
     try:
-        logger.debug("Server loop would start here.")
+        start_server()
+    except KeyboardInterrupt:
+        logger.info("Server interrupted by user. ")
     except Exception as e:
-        logger.error(f"A fatal error occurred: {e}, exc_info=True")
+        logger.error(f"A fatal error occurred: {e}", exc_info=True)
     finally:
-        logger.info("Server shutting down.")
+        logger.info("Server shutting down. ")
+
+    
 
 if __name__== "__main__":
     main()
