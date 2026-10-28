@@ -431,3 +431,246 @@ Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
 2026-09-26 23:36:03,961 - FileServer - DEBUG - Parsed Request: GET /favicon.ico
 2026-09-26 23:36:03,962 - FileServer - INFO - Client connection closed.
 2026-09-26 23:36:03,962 - FileServer - INFO - Waiting for a client to connect...
+2026-09-27 22:09:05,669 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-09-27 22:09:05,670 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-09-27 22:09:05,671 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-09-27 22:09:05,671 - FileServer - INFO - Waiting for a client to connect...
+2026-09-27 23:30:21,156 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-09-27 23:30:21,157 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-09-27 23:30:21,157 - FileServer - DEBUG - Route added: GET /
+2026-09-27 23:30:21,157 - FileServer - DEBUG - Route added: GET /secret
+2026-09-27 23:30:21,157 - FileServer - DEBUG - Route added: POST /upload
+2026-09-27 23:30:21,157 - FileServer - DEBUG - Route added: GET /about
+2026-09-27 23:30:21,158 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-09-27 23:30:21,158 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:08:24,232 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-23 22:08:24,232 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-23 22:08:24,233 - FileServer - DEBUG - Route added: GET /
+2026-10-23 22:08:24,233 - FileServer - DEBUG - Route added: GET /secret
+2026-10-23 22:08:24,233 - FileServer - DEBUG - Route added: POST /upload
+2026-10-23 22:08:24,233 - FileServer - DEBUG - Route added: GET /about
+2026-10-23 22:08:24,234 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-23 22:08:24,234 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:11:25,328 - FileServer - INFO - Server manually stopped.
+2026-10-23 22:11:25,328 - FileServer - INFO - Server socket closed.
+2026-10-23 22:11:25,328 - FileServer - INFO - Server shutting down. 
+2026-10-23 22:11:50,491 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-23 22:11:50,491 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-23 22:11:50,491 - FileServer - DEBUG - Route added: GET /
+2026-10-23 22:11:50,492 - FileServer - DEBUG - Route added: GET /secret
+2026-10-23 22:11:50,492 - FileServer - DEBUG - Route added: POST /upload
+2026-10-23 22:11:50,492 - FileServer - DEBUG - Route added: GET /about
+2026-10-23 22:11:50,493 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-23 22:11:50,494 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:11:51,740 - FileServer - INFO - Connection established with ('127.0.0.1', 58607)
+2026-10-23 22:11:51,747 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-23 22:11:51,748 - FileServer - INFO - Client connection closed.
+2026-10-23 22:11:51,749 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:11:51,749 - FileServer - INFO - Connection established with ('127.0.0.1', 62007)
+2026-10-23 22:11:51,785 - FileServer - DEBUG - Parsed Request: GET /favicon.ico
+2026-10-23 22:11:51,785 - FileServer - WARNING - 404 Not Found: GET /favicon.ico
+2026-10-23 22:11:51,785 - FileServer - INFO - Client connection closed.
+2026-10-23 22:11:51,786 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:25:59,241 - FileServer - INFO - Server manually stopped.
+2026-10-23 22:25:59,241 - FileServer - INFO - Server socket closed.
+2026-10-23 22:25:59,241 - FileServer - INFO - Server shutting down. 
+2026-10-23 22:26:06,558 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-23 22:26:06,558 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-23 22:26:06,559 - FileServer - DEBUG - Route added: GET /
+2026-10-23 22:26:06,559 - FileServer - DEBUG - Route added: GET /secret
+2026-10-23 22:26:06,559 - FileServer - DEBUG - Route added: POST /upload
+2026-10-23 22:26:06,559 - FileServer - DEBUG - Route added: GET /about
+2026-10-23 22:26:06,560 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-23 22:26:06,561 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:26:08,625 - FileServer - INFO - Connection established with ('127.0.0.1', 50378)
+2026-10-23 22:26:08,633 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-23 22:26:08,633 - FileServer - INFO - Client connection closed.
+2026-10-23 22:26:08,638 - FileServer - INFO - Connection established with ('127.0.0.1', 54444)
+2026-10-23 22:26:14,505 - FileServer - INFO - Client connection closed.
+2026-10-23 22:26:14,505 - FileServer - INFO - Server manually stopped.
+2026-10-23 22:26:14,506 - FileServer - INFO - Server socket closed.
+2026-10-23 22:26:14,506 - FileServer - INFO - Server shutting down. 
+2026-10-23 22:26:17,795 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-23 22:26:17,795 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-23 22:26:17,796 - FileServer - DEBUG - Route added: GET /
+2026-10-23 22:26:17,796 - FileServer - DEBUG - Route added: GET /secret
+2026-10-23 22:26:17,796 - FileServer - DEBUG - Route added: POST /upload
+2026-10-23 22:26:17,796 - FileServer - DEBUG - Route added: GET /about
+2026-10-23 22:26:17,797 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-23 22:26:17,798 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:26:19,591 - FileServer - INFO - Connection established with ('127.0.0.1', 63503)
+2026-10-23 22:26:19,599 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-23 22:26:19,601 - FileServer - INFO - Client connection closed.
+2026-10-23 22:26:19,606 - FileServer - INFO - Connection established with ('127.0.0.1', 62118)
+2026-10-23 22:28:51,587 - FileServer - INFO - Client connection closed.
+2026-10-23 22:28:51,588 - FileServer - INFO - Server manually stopped.
+2026-10-23 22:28:51,588 - FileServer - INFO - Server socket closed.
+2026-10-23 22:28:51,589 - FileServer - INFO - Server shutting down. 
+2026-10-23 22:28:57,479 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-23 22:28:57,479 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-23 22:28:57,479 - FileServer - DEBUG - Route added: GET /
+2026-10-23 22:28:57,479 - FileServer - DEBUG - Route added: GET /secret
+2026-10-23 22:28:57,479 - FileServer - DEBUG - Route added: POST /upload
+2026-10-23 22:28:57,479 - FileServer - DEBUG - Route added: GET /about
+2026-10-23 22:28:57,480 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-23 22:28:57,480 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 22:28:57,658 - FileServer - INFO - Connection established with ('127.0.0.1', 49670)
+2026-10-23 22:28:57,668 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-23 22:28:57,669 - FileServer - INFO - Client connection closed.
+2026-10-23 22:28:57,669 - FileServer - INFO - Connection established with ('127.0.0.1', 57613)
+2026-10-23 22:30:15,125 - FileServer - INFO - Client connection closed.
+2026-10-23 22:30:15,126 - FileServer - INFO - Server manually stopped.
+2026-10-23 22:30:15,126 - FileServer - INFO - Server socket closed.
+2026-10-23 22:30:15,126 - FileServer - INFO - Server shutting down. 
+2026-10-23 22:30:17,636 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-23 22:30:17,636 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-23 22:30:17,636 - FileServer - DEBUG - Route added: GET /
+2026-10-23 22:30:17,636 - FileServer - DEBUG - Route added: GET /secret
+2026-10-23 22:30:17,637 - FileServer - DEBUG - Route added: POST /upload
+2026-10-23 22:30:17,637 - FileServer - DEBUG - Route added: GET /about
+2026-10-23 22:30:17,637 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-23 22:30:17,638 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 23:35:37,371 - FileServer - INFO - Connection established with ('127.0.0.1', 61175)
+2026-10-23 23:35:37,384 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-23 23:35:37,384 - FileServer - INFO - Client connection closed.
+2026-10-23 23:35:37,385 - FileServer - INFO - Connection established with ('127.0.0.1', 53485)
+2026-10-23 23:45:16,657 - FileServer - INFO - Client connection closed.
+2026-10-23 23:45:16,657 - FileServer - INFO - Server manually stopped.
+2026-10-23 23:45:16,658 - FileServer - INFO - Server socket closed.
+2026-10-23 23:45:16,658 - FileServer - INFO - Server shutting down. 
+2026-10-23 23:45:22,682 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-23 23:45:22,682 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-23 23:45:22,682 - FileServer - INFO - Initializing databse schema...
+2026-10-23 23:45:22,694 - FileServer - INFO - Database table created successfully
+2026-10-23 23:45:22,694 - FileServer - DEBUG - Route added: GET /
+2026-10-23 23:45:22,694 - FileServer - DEBUG - Route added: GET /secret
+2026-10-23 23:45:22,695 - FileServer - DEBUG - Route added: POST /upload
+2026-10-23 23:45:22,695 - FileServer - DEBUG - Route added: GET /about
+2026-10-23 23:45:22,696 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-23 23:45:22,696 - FileServer - INFO - Waiting for a client to connect...
+2026-10-23 23:45:22,735 - FileServer - INFO - Connection established with ('127.0.0.1', 50664)
+2026-10-23 23:45:22,742 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-23 23:45:22,742 - FileServer - INFO - Client connection closed.
+2026-10-23 23:45:22,747 - FileServer - INFO - Connection established with ('127.0.0.1', 63497)
+2026-10-23 23:45:32,468 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-23 23:45:32,469 - FileServer - INFO - Client connection closed.
+2026-10-23 23:45:32,469 - FileServer - INFO - Connection established with ('127.0.0.1', 65253)
+2026-10-23 23:46:51,694 - FileServer - INFO - Client connection closed.
+2026-10-23 23:46:51,694 - FileServer - INFO - Connection established with ('127.0.0.1', 53919)
+2026-10-23 23:46:51,695 - FileServer - INFO - Client connection closed.
+2026-10-28 22:46:08,011 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-28 22:46:08,011 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-28 22:46:08,011 - FileServer - INFO - Initializing databse schema...
+2026-10-28 22:46:08,019 - FileServer - INFO - Database table created successfully
+2026-10-28 22:46:08,019 - FileServer - DEBUG - Route added: GET /
+2026-10-28 22:46:08,019 - FileServer - DEBUG - Route added: GET /secret
+2026-10-28 22:46:08,019 - FileServer - DEBUG - Route added: POST /upload
+2026-10-28 22:46:08,019 - FileServer - DEBUG - Route added: GET /about
+2026-10-28 22:46:08,020 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-28 22:46:08,021 - FileServer - INFO - Waiting for a client to connect...
+2026-10-28 22:46:13,050 - FileServer - INFO - Server manually stopped.
+2026-10-28 22:46:13,051 - FileServer - INFO - Server socket closed.
+2026-10-28 22:46:13,051 - FileServer - INFO - Server shutting down. 
+2026-10-28 22:47:45,319 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-28 22:47:45,320 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-28 22:47:45,320 - FileServer - INFO - Initializing databse schema...
+2026-10-28 22:47:45,320 - FileServer - INFO - Database table created successfully
+2026-10-28 22:47:45,321 - FileServer - DEBUG - Route added: GET /
+2026-10-28 22:47:45,321 - FileServer - DEBUG - Route added: GET /secret
+2026-10-28 22:47:45,321 - FileServer - DEBUG - Route added: POST /upload
+2026-10-28 22:47:45,321 - FileServer - DEBUG - Route added: GET /about
+2026-10-28 22:47:45,322 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-28 22:47:45,322 - FileServer - INFO - Waiting for a client to connect...
+2026-10-28 22:47:50,810 - FileServer - INFO - Connection established with ('127.0.0.1', 51076)
+2026-10-28 22:47:50,815 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-28 22:47:50,816 - FileServer - INFO - Client connection closed.
+2026-10-28 22:47:50,825 - FileServer - INFO - Connection established with ('127.0.0.1', 52446)
+2026-10-28 22:47:50,868 - FileServer - DEBUG - Parsed Request: GET /favicon.ico
+2026-10-28 22:47:50,868 - FileServer - WARNING - 404 Not Found: GET /favicon.ico
+2026-10-28 22:47:50,868 - FileServer - INFO - Client connection closed.
+2026-10-28 22:47:50,869 - FileServer - INFO - Connection established with ('127.0.0.1', 62329)
+2026-10-28 22:48:19,039 - FileServer - INFO - Client connection closed.
+2026-10-28 22:48:19,039 - FileServer - INFO - Server manually stopped.
+2026-10-28 22:48:19,039 - FileServer - INFO - Server socket closed.
+2026-10-28 22:48:19,039 - FileServer - INFO - Server shutting down. 
+2026-10-28 22:49:23,059 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-28 22:49:23,059 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-28 22:49:23,059 - FileServer - INFO - Initializing databse schema...
+2026-10-28 22:49:23,060 - FileServer - INFO - Database table created successfully
+2026-10-28 22:49:23,060 - FileServer - DEBUG - Route added: GET /
+2026-10-28 22:49:23,060 - FileServer - DEBUG - Route added: GET /secret
+2026-10-28 22:49:23,060 - FileServer - DEBUG - Route added: POST /upload
+2026-10-28 22:49:23,060 - FileServer - DEBUG - Route added: GET /about
+2026-10-28 22:49:23,061 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-28 22:49:23,061 - FileServer - INFO - Waiting for a client to connect...
+2026-10-28 22:49:29,866 - FileServer - INFO - Connection established with ('127.0.0.1', 60897)
+2026-10-28 22:49:29,878 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-28 22:49:29,879 - FileServer - INFO - Client connection closed.
+2026-10-28 22:49:29,884 - FileServer - INFO - Connection established with ('127.0.0.1', 62086)
+2026-10-28 22:50:50,998 - FileServer - INFO - Client connection closed.
+2026-10-28 22:50:50,999 - FileServer - INFO - Connection established with ('127.0.0.1', 55288)
+2026-10-28 22:50:51,000 - FileServer - INFO - Client connection closed.
+2026-10-28 22:50:51,000 - FileServer - INFO - Connection established with ('127.0.0.1', 54907)
+2026-10-28 22:50:51,010 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-28 22:50:51,010 - FileServer - INFO - Client connection closed.
+2026-10-28 22:50:51,014 - FileServer - INFO - Connection established with ('127.0.0.1', 61061)
+2026-10-28 22:53:43,426 - FileServer - INFO - Client connection closed.
+2026-10-28 22:53:43,426 - FileServer - INFO - Server manually stopped.
+2026-10-28 22:53:43,426 - FileServer - INFO - Server socket closed.
+2026-10-28 22:53:43,427 - FileServer - INFO - Server shutting down. 
+2026-10-28 22:53:50,279 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-28 22:53:50,280 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-28 22:53:50,280 - FileServer - INFO - Initializing databse schema...
+2026-10-28 22:53:50,285 - FileServer - INFO - Database table created successfully
+2026-10-28 22:53:50,286 - FileServer - DEBUG - Route added: GET /
+2026-10-28 22:53:50,286 - FileServer - DEBUG - Route added: GET /secret
+2026-10-28 22:53:50,286 - FileServer - DEBUG - Route added: POST /upload
+2026-10-28 22:53:50,286 - FileServer - DEBUG - Route added: GET /about
+2026-10-28 22:53:50,287 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-28 22:53:50,287 - FileServer - INFO - Waiting for a client to connect...
+2026-10-28 22:57:54,480 - FileServer - INFO - Connection established with ('127.0.0.1', 57129)
+2026-10-28 22:57:54,491 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-28 22:57:54,491 - FileServer - INFO - Client connection closed.
+2026-10-28 22:57:54,495 - FileServer - INFO - Connection established with ('127.0.0.1', 62021)
+2026-10-28 22:58:02,546 - FileServer - INFO - Client connection closed.
+2026-10-28 22:58:02,546 - FileServer - INFO - Server manually stopped.
+2026-10-28 22:58:02,547 - FileServer - INFO - Server socket closed.
+2026-10-28 22:58:02,547 - FileServer - INFO - Server shutting down. 
+2026-10-28 23:01:17,891 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-28 23:01:17,891 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-28 23:01:17,891 - FileServer - INFO - Initializing databse schema...
+2026-10-28 23:01:17,892 - FileServer - INFO - Database table created successfully
+2026-10-28 23:01:17,893 - FileServer - DEBUG - Route added: GET /
+2026-10-28 23:01:17,893 - FileServer - DEBUG - Route added: GET /secret
+2026-10-28 23:01:17,893 - FileServer - DEBUG - Route added: POST /upload
+2026-10-28 23:01:17,893 - FileServer - DEBUG - Route added: GET /about
+2026-10-28 23:01:17,894 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-28 23:01:17,894 - FileServer - INFO - Waiting for a client to connect...
+2026-10-28 23:01:20,902 - FileServer - INFO - Server manually stopped.
+2026-10-28 23:01:20,903 - FileServer - INFO - Server socket closed.
+2026-10-28 23:01:20,903 - FileServer - INFO - Server shutting down. 
+2026-10-28 23:01:23,745 - FileServer - INFO - Initializing Secure File Sharing Server...
+2026-10-28 23:01:23,746 - FileServer - DEBUG - MAx COnnections Possible: 5
+2026-10-28 23:01:23,746 - FileServer - INFO - Initializing databse schema...
+2026-10-28 23:01:23,746 - FileServer - INFO - Database table created successfully
+2026-10-28 23:01:23,747 - FileServer - DEBUG - Route added: GET /
+2026-10-28 23:01:23,747 - FileServer - DEBUG - Route added: GET /secret
+2026-10-28 23:01:23,747 - FileServer - DEBUG - Route added: POST /upload
+2026-10-28 23:01:23,747 - FileServer - DEBUG - Route added: GET /about
+2026-10-28 23:01:23,748 - FileServer - INFO - Server is now listening on 127.0.0.1:8080
+2026-10-28 23:01:23,748 - FileServer - INFO - Waiting for a client to connect...
+2026-10-28 23:02:08,754 - FileServer - INFO - Connection established with ('127.0.0.1', 56329)
+2026-10-28 23:02:08,764 - FileServer - DEBUG - Parsed Request: GET /
+2026-10-28 23:02:08,765 - FileServer - INFO - Client connection closed.
+2026-10-28 23:02:08,769 - FileServer - INFO - Connection established with ('127.0.0.1', 49363)
+2026-10-28 23:02:10,779 - FileServer - ERROR - Error handling client: timed out
+Traceback (most recent call last):
+  File "D:\MCA Project\secure_file_sharing\src\server.py", line 48, in start_server
+    data = client_socket.recv(1024)
+TimeoutError: timed out
+2026-10-28 23:02:10,803 - FileServer - INFO - Client connection closed.
+2026-10-28 23:02:10,803 - FileServer - INFO - Connection established with ('127.0.0.1', 49194)
+2026-10-28 23:02:12,798 - FileServer - INFO - Client connection closed.
+2026-10-28 23:02:12,798 - FileServer - INFO - Server manually stopped.
+2026-10-28 23:02:12,799 - FileServer - INFO - Server socket closed.
+2026-10-28 23:02:12,799 - FileServer - INFO - Server shutting down. 

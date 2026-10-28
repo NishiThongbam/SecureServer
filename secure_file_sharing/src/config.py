@@ -10,4 +10,5 @@ PORT=8080
 
 LOG_DIR = os.path.join(BASE_DIR, 'data', 'logs')
 LOG_FILE = os.path.join(LOG_DIR, 'server.log')
+DB_FILE= os.path.join(BASE_DIR, 'data', 'file_server.db')
 

@@ -3,12 +3,16 @@ from src.utils.logger import logger
 
 from src.server import start_server
 
+from src.database.db import init_db
+
 def main():
     logger.info("Initializing Secure File Sharing Server...")
     
     logger.debug(f"MAx COnnections Possible: {MAX_CONNECTIONS}")
 
     try:
+
+        init_db()
         start_server()
     except KeyboardInterrupt:
         logger.info("Server interrupted by user. ")

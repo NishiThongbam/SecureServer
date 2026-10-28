@@ -5,21 +5,43 @@ from src.utils.logger import logger
 
 # Import our new HTTP classes!
 from src.http.request import HTTPRequest
-from src.http.response import build_response
+from src.http.router import Router
+from src.handlers import handle_home,handle_secret,handle_upload_stub, handle_about
+
 
 def start_server():
+
+
+    router=Router()
+    router.add_route("GET","/", handle_home)
+    router.add_route("GET", "/secret", handle_secret)
+    router.add_route("POST","/upload", handle_upload_stub)
+    router.add_route("GET","/about", handle_about)
+
+
+
+
+
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     
     server_socket.bind((HOST, PORT))
     server_socket.listen(MAX_CONNECTIONS)
+    server_socket.settimeout(1.0)
     logger.info(f"Server is now listening on {HOST}:{PORT}")
 
     try:
+        logger.info("Waiting for a client to connect...")
+
         while True:
-            logger.info("Waiting for a client to connect...")
-            client_socket, client_address = server_socket.accept()
+            try:
+                client_socket, client_address = server_socket.accept()
+                
+            except socket.timeout:
+                continue
+
             logger.info(f"Connection established with {client_address}")
+            client_socket.settimeout(2.0)
 
             try:
                 # 5a. Receive data
@@ -30,18 +52,7 @@ def start_server():
                 # Parse the raw bytes into our HTTPRequest object
                 request = HTTPRequest(data)
 
-                if request.path == "/":
-                    body_text = "Welcome to the File Server"
-                    response_bytes = build_response(body_text, 200, "OK")
-                    
-                elif request.path == "/secret":
-                    body_text = "This is a secret area"
-                    response_bytes = build_response(body_text, 200, "OK")
-                    
-                else:
-                    body_text = "404 - Page Not Found"
-                    response_bytes = build_response(body_text, 404, "Not Found")
-                # ==========================================
+                response_bytes = router.handle_request(request)
 
                 # 5b. Send the properly formatted HTTP response back
                 client_socket.sendall(response_bytes)
